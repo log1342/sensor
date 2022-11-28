@@ -14,6 +14,8 @@ basic.forever(function () {
     pins.digitalWritePin(DigitalPin.P1, 0)
     distance = pins.pulseIn(DigitalPin.P2, PulseValue.High) + 58
     basic.pause(2000)
+})
+basic.forever(function () {
     if (Mode == 1) {
         basic.showIcon(IconNames.No)
     } else if (Mode == 2) {
