@@ -5,12 +5,15 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "robotbit": "github:kittenbot/pxt-robotbit#v0.4.4"
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.4.4",
+        "pxt-sensor": "github:monkmakes/pxt-sensor#v0.0.2",
+        "LIS2DW12": "github:makecode-extensions/lis2dw12#1.0.0"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
